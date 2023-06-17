@@ -1,11 +1,11 @@
-
-
 export default function Home() {
   return (
-    <main>
-      <h1>
-        Hello World
-      </h1>
-    </main>
+    <div>
+      <header>
+        <span>
+          Cadastrar 
+        </span>
+      </header>
+    </div>
   )
 }
