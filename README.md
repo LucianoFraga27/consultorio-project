@@ -60,6 +60,7 @@ erDiagram
         Long id_medico
         Long id_motivo
         OffsetDateTime datahora
+        String sintomas
         Enum status
         Enum tipo_consulta
     }

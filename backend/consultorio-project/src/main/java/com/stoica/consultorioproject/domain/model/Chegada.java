@@ -21,6 +21,7 @@ public class Chegada {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long senha;
 	
+	@ManyToOne
 	private Motivo motivo;
 	
 }

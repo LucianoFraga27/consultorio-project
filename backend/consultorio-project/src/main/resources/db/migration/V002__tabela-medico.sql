@@ -1,0 +1,6 @@
+-- Tabela 'medico'
+CREATE TABLE medico (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  CRM VARCHAR(255)
+);
