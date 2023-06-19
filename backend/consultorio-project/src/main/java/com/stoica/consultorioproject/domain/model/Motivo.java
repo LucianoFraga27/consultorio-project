@@ -1,6 +1,5 @@
 package com.stoica.consultorioproject.domain.model;
 
-import java.time.OffsetDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
