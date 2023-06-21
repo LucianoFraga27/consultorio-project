@@ -54,9 +54,9 @@ INSERT INTO medico (nome, CRM) VALUES ('Dr. Carlos', '12345');
 INSERT INTO medico (nome, CRM) VALUES ('Dra. Ana', '54321');
 
 -- Inserts para tabela 'agendamento'
-INSERT INTO agendamento (paciente_id, medico_id, motivo_id, datahora, sintomas, status, tipo_consulta) VALUES (1, 1, 1, '2023-06-18 10:00:00', 'Febre alta', 'AGENDADO', 'CONSULTA');
-INSERT INTO agendamento (paciente_id, medico_id, motivo_id, datahora, sintomas, status, tipo_consulta) VALUES (2, 2, 2, '2023-06-19 14:30:00', 'Dor de cabeça intensa', 'AGENDADO', 'CONSULTA');
-INSERT INTO agendamento (paciente_id, medico_id, motivo_id, datahora, sintomas, status, tipo_consulta) VALUES (3, 1, 1, '2023-06-20 09:00:00', 'Dor de garganta', 'AGENDADO', 'CONSULTA');
+INSERT INTO agendamento (paciente_id, medico_id, motivo_id, datahora, sintomas, status, tipo_consulta) VALUES (1, 1, 1, '2023-06-18 10:00:00', 'Febre alta', 'PENDENTE', 'PARTICULAR');
+INSERT INTO agendamento (paciente_id, medico_id, motivo_id, datahora, sintomas, status, tipo_consulta) VALUES (2, 2, 2, '2023-06-19 14:30:00', 'Dor de cabeça intensa', 'CANCELADO', 'PARTICULAR');
+INSERT INTO agendamento (paciente_id, medico_id, motivo_id, datahora, sintomas, status, tipo_consulta) VALUES (3, 1, 1, '2023-06-20 09:00:00', 'Dor de garganta', 'CONFIRMADO', 'PARTICULAR');
 
 -- Inserts para tabela 'ficha_atendimento'
 INSERT INTO ficha_atendimento (agendamento_id, diagnostico, observacao, receita, retorno) VALUES (1, 'Gripe', 'Recomendar repouso', 'Paracetamol', '2023-06-25 10:00:00');
